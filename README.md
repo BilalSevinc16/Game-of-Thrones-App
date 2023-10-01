@@ -2,11 +2,11 @@
 
 Application that displays Game of Thrones characters
 *****
-Packages:
-http:
-flutter_spinkit:
-animated_text_kit: 
-image_fade:
+Packages=
+ http:
+ flutter_spinkit:
+ animated_text_kit: 
+ image_fade:
 *****
 ![1](https://github.com/BilalSevinc16/Game-of-Thrones-App/assets/146417248/d3aa6631-46d3-4219-aaf0-838b7f6397a2)
 
