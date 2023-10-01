@@ -1,16 +1,17 @@
-# gameofthrones_app
+# Game of Thrones App
 
-A new Flutter project.
+Application that displays Game of Thrones characters
+*****
+-Packages-
+http:
+flutter_spinkit:
+animated_text_kit: 
+image_fade:
+*****
+![1](https://github.com/BilalSevinc16/Game-of-Thrones-App/assets/146417248/d3aa6631-46d3-4219-aaf0-838b7f6397a2)
 
-## Getting Started
+![2](https://github.com/BilalSevinc16/Game-of-Thrones-App/assets/146417248/3171e6f1-d165-41d7-bf79-87bda364743b)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
