@@ -2,7 +2,7 @@
 
 Application that displays Game of Thrones characters
 *****
--Packages-
+Packages:
 http:
 flutter_spinkit:
 animated_text_kit: 
