@@ -54,12 +54,16 @@ class _DetailState extends State<Detail> {
           )
         : Scaffold(
             appBar: AppBar(
-              title: TypewriterAnimatedTextKit(
-                text: ["${c!.fullName}"],
+              title: AnimatedTextKit(
+                animatedTexts: [
+                  TypewriterAnimatedText(
+                    "${c!.fullName}",
+                    textStyle: const TextStyle(
+                        fontSize: 25, fontStyle: FontStyle.italic),
+                    speed: const Duration(milliseconds: 100),
+                  ),
+                ],
                 repeatForever: true,
-                textStyle:
-                    const TextStyle(fontSize: 25, fontStyle: FontStyle.italic),
-                speed: const Duration(milliseconds: 100),
               ),
             ),
             body: Column(
@@ -80,7 +84,7 @@ class _DetailState extends State<Detail> {
                   height: 10,
                   width: 250,
                   child: Divider(
-                    color: Theme.of(context).accentColor,
+                    color: Theme.of(context).colorScheme.secondary,
                   ),
                 ),
                 cardCreator("Name: ", c!.fullName!, context),
@@ -91,3 +95,4 @@ class _DetailState extends State<Detail> {
           );
   }
 }
+
