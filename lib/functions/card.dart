@@ -17,7 +17,7 @@ Widget cardCreator(String leading, String title, BuildContext context) {
       title: Text(
         title,
         style: TextStyle(
-          color: Theme.of(context).accentColor,
+          color: Theme.of(context).colorScheme.secondary,
           fontSize: 25.0,
         ),
       ),
