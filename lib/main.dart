@@ -14,13 +14,17 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "Game of Thrones App",
       theme: ThemeData(
-        primarySwatch: Colors.blue,
-        scaffoldBackgroundColor: const Color(0xFF67e6dc),
-        accentColor: const Color(0xFFeb4d4b),
-        secondaryHeaderColor: const Color(0xFF222f3e),
-        backgroundColor: const Color(0xFFfc5c65),
+        scaffoldBackgroundColor: const Color(0xff171f1f),
+        secondaryHeaderColor: const Color(0xff5d7191),
+        colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.blue)
+            .copyWith(
+              background: const Color(0xff5e4d50),
+            )
+            .copyWith(
+              secondary: const Color(0xff312828),
+            ),
       ),
-      home: const characters(),
+      home: const GoTCharacters(),
     );
   }
 }
