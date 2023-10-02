@@ -4,14 +4,14 @@ import 'package:gameofthrones_app/models/character.dart';
 import 'package:gameofthrones_app/screens/characterDetailScreen.dart';
 import 'package:http/http.dart';
 
-class characters extends StatefulWidget {
-  const characters({Key? key}) : super(key: key);
+class GoTCharacters extends StatefulWidget {
+  const GoTCharacters({Key? key}) : super(key: key);
 
   @override
-  State<characters> createState() => _charactersState();
+  State<GoTCharacters> createState() => _GoTCharactersState();
 }
 
-class _charactersState extends State<characters> {
+class _GoTCharactersState extends State<GoTCharacters> {
   List<Character?> characterList = <Character>[];
 
   void bringCharacters() async {
@@ -49,7 +49,7 @@ class _charactersState extends State<characters> {
             begin: Alignment.topRight,
             end: Alignment.bottomLeft,
             colors: [
-              Theme.of(context).backgroundColor,
+              Theme.of(context).colorScheme.background,
               Theme.of(context).scaffoldBackgroundColor,
             ],
             tileMode: TileMode.mirror,
@@ -90,3 +90,4 @@ class _charactersState extends State<characters> {
     );
   }
 }
+
